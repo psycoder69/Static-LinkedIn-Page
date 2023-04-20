@@ -1,0 +1,312 @@
+/* css for middle panel */
+
+#post-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#write-post {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.75rem 1rem 0 1rem;
+}
+
+#write-post > img {
+    height: 3rem;
+    width: 3rem;
+    border: 1px solid #0000001a;
+    border-radius: 100%;
+    margin-right: 0.5rem;
+}
+
+#text-area {
+    height: 3rem;
+    width: 31rem;
+    border: 1px solid #0000004d;
+    border-radius: 7.5rem;
+    outline: none;
+    font-size: 0.875rem;
+    font-weight: 600;
+    padding: 0.625rem 1rem;
+}
+
+#text-area:focus {
+    background: whitesmoke;
+}
+
+#attachments {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0.25rem 0;
+}
+
+#attachments > div {
+    display: flex;
+    align-items: center;
+    padding: 0.75rem 0.5rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+#attachments > div:hover {
+    background: whitesmoke;
+}
+
+#attachments > div > i {
+    font-size: 1.25rem;
+    margin-right: 0.5rem;
+}
+
+#photo {
+    color: #387fe9;
+}
+
+#video {
+    color: #5f9b41;
+}
+
+#event {
+    color: #c37d16;
+}
+
+#article {
+    color: #e16745;
+}
+
+#attachments > div > span {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--passive-color);
+    margin-left: 0.5rem;
+}
+
+#sort-option {
+    margin: 0.5rem 0.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+/* css on horizontal divider */
+
+#horizontal-divider {
+    flex-basis: 30.875rem;
+    height: 1px;
+    background: #2020204d;
+    margin-right: 0.5rem;
+}
+
+/* css on sorting options */
+
+#sort-by {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--passive-color);
+}
+
+#sort-type {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--passive-color);
+    margin: 0 0.125rem 0 0.5rem;
+}
+
+/* css on user info */
+
+.user {
+    display: flex;
+    align-items: flex-start;
+    margin: 0.75rem 1rem 0 1rem;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 30.125rem;
+}
+
+.user-name {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--active-color);
+}
+
+.user-name:hover {
+    color: #0a66c2;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.user-followers {
+    margin: 0.125rem 0;
+}
+
+.user-followers, .posted-ago {
+    display: flex;
+    align-items: center;
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: var(--passive-color);
+}
+
+.fa-ellipsis {
+    cursor: pointer;
+}
+
+.fa-circle {
+    font-size: 0.2rem;
+    font-weight: 600;
+    margin: 0 0.375rem;
+}
+
+.fa-earth-americas {
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+#google {
+    width: 3rem;
+    border-radius: 100%;
+    margin-right: 0.75rem;
+    cursor: pointer;
+}
+
+.description {
+    color: var(--active-color);
+    font-size: 0.875rem;
+    font-weight: 400;
+    margin: 0.75rem 1rem;
+    opacity: 0.95;
+}
+
+.description > div {
+    margin-bottom: 1rem;
+}
+
+.hashtag {
+    font-weight: 500;
+    color: #0a66c2;
+}
+
+.hashtag:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#post-pics > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#doge-1 {
+    height: 20.625rem;
+    flex-basis: 36.313rem;
+    object-fit: cover;
+    margin-bottom: 0.125rem;
+}
+
+#doge-2, #doge-3, #doge-4 {
+    height: 12.5rem;
+    flex-basis: 12.031rem;
+}
+
+#post-2 {
+    margin-top: 0.5rem;
+}
+
+#bisleri {
+    width: 3rem;
+    margin-right: 0.75rem;
+    cursor: pointer;
+}
+
+#post-video {
+    display: flex;
+    align-items: center;
+}
+
+#post-video > video {
+    height: 20rem;
+    flex-basis: 36.5rem;
+}
+
+#reactions {
+    display: flex;
+    align-items: center;
+    margin: 0.5rem 1rem;
+}
+
+#empathy {
+    margin: 0 -0.313rem;
+}
+
+.reaction-number, .comments, .reposts {
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: var(--passive-color);
+}
+
+.reaction-number {
+    display: flex;
+    margin-left: 0.25rem;
+    align-items: center;
+    flex-basis: 33.75rem;
+    justify-content: space-between;
+}
+
+.comments-reposts {
+    display: flex;
+    align-items: center;
+    flex-basis: 16rem;
+    justify-content: flex-end;
+}
+
+#divider-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#divider-2 > div {
+    height: 1px;
+    flex-basis: 35rem;
+    background: #0000001a;
+}
+
+#reaction-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0.25rem 0;
+}
+
+#reaction-button > div {
+    display: flex;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
+}
+
+#reaction-button > div:hover {
+    cursor: pointer;
+    background: #e7e7e7;
+}
+
+#reaction-button > div > i {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--passive-color);
+    margin-right: 0.25rem;
+}
+
+#reaction-button > div > span {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--passive-color);
+}

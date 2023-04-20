@@ -1,0 +1,168 @@
+/* css for left panel */
+
+#background {
+    height: 3.6rem;
+    width: 14.4rem;
+    border-radius: 8px 8px 0px 0px;
+}
+
+#profile-pic {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 100%;
+    border: 1px solid #0000001a;
+    margin: -2.25rem 5.2rem 0 5.2rem;
+}
+
+#name {
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: underline;
+    margin: 1.25rem 0 0.3rem 0;
+}
+
+#name:hover {
+    color: #0a66c2;
+    cursor: pointer;
+}
+
+#position {
+    font-size: 0.8rem;
+    font-weight: 500;
+    text-align: center;
+    color: var(--passive-color);
+    margin: 0.3rem 0 1.25rem 0;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0.75rem;
+}
+
+#connections > span {
+    display: flex;
+    flex-direction: column;
+}
+
+#connections {
+    border-top: 1px solid #0000001a;
+    border-bottom: 1px solid #0000001a;
+}
+
+#connection-1 {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--passive-color);
+    padding-bottom: 1px;
+}
+
+#connection-2 {
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding-top: 1px;
+}
+
+.fa-user-plus {
+    font-size: 1rem;
+    padding: 0 0.25rem;
+    cursor: pointer;
+}
+
+#promotion {
+    flex-direction: column;
+    align-items: flex-start;
+    border-bottom: 1px solid #0000001a;
+}
+
+#promotion > span {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--passive-color);
+    padding-bottom: 1px;
+}
+
+#promotion > a {
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding-top: 1px;
+}
+
+#promotion > a:hover {
+    color: #915907;
+    cursor: pointer;
+}
+
+#my-items {
+    justify-content: flex-start;
+}
+
+.fa-bookmark {
+    font-size: 1rem;
+    color: var(--passive-color);
+    margin-right: 0.5rem;
+}
+
+#my-items > span {
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+
+.active, #name, #connection-2, #promotion > a, #my-items > span {
+    color: var(--active-color);
+}
+
+#my-topics {
+    margin-top: 0.375rem;
+}
+
+#links {
+    display: flex;
+    flex-direction: column;
+    padding: 0.75rem;
+}
+
+#links > div {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem 0;
+}
+
+#links > div > a {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #0a66c2;
+    text-decoration: none;
+}
+
+#links > div > a:hover {
+    text-decoration: underline;
+}
+
+#links > div > i {
+    font-size: 1rem;
+    color: var(--passive-color);
+}
+
+#links > div > i:hover {
+    color: var(--active-color);
+    cursor: pointer;
+}
+
+#discover {
+    display: flex;
+    justify-content: center;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--passive-color);
+    border-top: 1px solid #0000001a;
+    padding: 0.75rem;
+}
+
+#discover:hover {
+    cursor: pointer;
+    background: whitesmoke;
+    border-radius: 0.5rem;
+}

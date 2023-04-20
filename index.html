@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> LinkedIn </title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media_query.css">
+    <link rel="stylesheet" href="css/navigation_bar.css">
+    <link rel="stylesheet" href="css/left_panel.css">
+    <link rel="stylesheet" href="css/middle_panel.css">
+    <link rel="stylesheet" href="css/right_panel.css">
+    <script src="https://kit.fontawesome.com/7748f3a2f4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- LinkedIn Navigation Bar starts here -->
+
+    <header>
+        <nav>
+            <!-- Navigation Bar starts here -->
+
+            <div id="navigation-bar">
+                <div id="logo">
+                    <img src="logo/linkedin.png" alt="LinkedIn logo" title="LinkedIn">
+                </div>
+                <div id="search-bar">
+                    <input type="text" name="search_bar" placeholder="Search">
+                </div>
+
+                <!-- Navigation Menu starts here -->
+
+                <div id="navigation-menu">
+                    <div class="nav-icon" id="search-icon" onclick="openSearch()">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+
+                    <!-- Home -->
+
+                    <div class="nav-icon active" id="home">
+                        <i class="fa-solid fa-house-chimney"></i>
+                        <span> Home </span>
+                    </div>
+
+                    <!-- My Network -->
+
+                    <div class="nav-icon" id="network">
+                        <i class="fa-solid fa-user-group"></i>
+                        <span> My Network </spa>
+                    </div>
+
+                    <!-- My Jobs -->
+
+                    <div class="nav-icon" id="jobs">
+                        <i class="fa-solid fa-briefcase"></i>
+                        <span> Jobs </span>
+                    </div>
+
+                    <!-- Messaging -->
+
+                    <div class="nav-icon" id="messaging">
+                        <i class="fa-solid fa-message"></i>
+                        <span> Messaging </span>
+                    </div>
+
+                    <!-- Notifications -->
+
+                    <div class="nav-icon" id="notifications">
+                        <i class="fa-solid fa-bell"></i>
+                        <span> Notifications </span>
+                    </div>
+
+                    <!-- About Me -->
+
+                    <div class="nav-icon" id="myself">
+                        <i class="fa-solid fa-user-tie"></i>
+                        <div>
+                            <span> Me </span>
+                            <i class="fa-solid fa-caret-down"></i>
+                        </div>
+                    </div>
+
+                    <div id="divider"></div>
+
+                    <!-- For Business -->
+
+                    <div class="nav-icon" id="business">
+                        <i class="fa-solid fa-grip"></i>
+                        <div>
+                            <span> For Business </span>
+                            <i class="fa-solid fa-caret-down"></i>
+                        </div>
+                    </div>
+
+                    <!-- Premium -->
+
+                    <div id="premium">
+                        <a href="#"> Try Premium for free </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- LinkedIn Body starts here -->
+
+    <div id="content">
+
+        <!-- Left Panel starts here -->
+
+        <div id="left-panel">
+
+            <!-- Profile Information Section -->
+
+            <div class="property">
+                <img src="pics/background.jpg" alt="background" id="background">
+                <img src="logo/profile.jpg" alt="profile pic" id="profile-pic" title="Anshu Kumar Singh">
+                <div id="name"> Anshu Kumar Singh </div>
+                <div id="position"> Software Developer at Google </div>
+
+                <!-- Connections -->
+
+                <div class="section" id="connections">
+                    <span>
+                        <span id="connection-1"> Connections </span>
+                        <span id="connection-2"> Connect with alumni </span>
+                    </span>
+                    <i class="fa-solid fa-user-plus fa-beat-fade"></i>
+                </div>
+
+                <!-- Premium -->
+
+                <div class="section" id="promotion">
+                    <span> Access exclusive tools & insights </span>
+                    <a href="#"> Try Premium for free </a>
+                </div>
+
+                <!-- My items -->
+
+                <div class="section" id="my-items">
+                    <i class="fa-solid fa-bookmark"></i>
+                    <span> My items </span>
+                </div>
+            </div>
+
+            <!-- My Topics section -->
+
+            <div class="property" id="my-topics">
+                <div id="links">
+                    <div> <a href="#"> Groups </a> </div>
+                    <div>
+                        <a href="#"> Events </a>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                    <div> <a href="#"> Followed Hashtags </a> </div>
+                </div>
+                <div id="discover"> Discover more </div>
+            </div>
+        </div>
+
+        <!-- Middle Panel starts here -->
+
+        <div id="middle-panel">
+
+            <!-- Make a Post Section -->
+
+            <div class="property" id="post-section">
+                <div id="write-post">
+                    <img src="logo/profile.jpg" alt="profile-pic" title="Anshu Kumar Singh">
+                    <input type="text" name="_textarea" id="text-area" placeholder="Start a post">
+                </div>
+
+                <!-- Attachments -->
+
+                <div id="attachments">
+                    <div id="photo">
+                        <i class="fa-solid fa-image"></i>
+                        <span> Photo </span>
+                    </div>
+                    <div id="video">
+                        <i class="fa-brands fa-youtube"></i>
+                        <span> Video </span>
+                    </div>
+                    <div id="event">
+                        <i class="fa-solid fa-calendar-days"></i>
+                        <span> Event </span>
+                    </div>
+                    <div id="article">
+                        <i class="fa-solid fa-newspaper"></i>
+                        <span> Write article </span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- sorting options -->
+
+            <div id="sort-option">
+                <div id="horizontal-divider"></div>
+                <div id="sort-by"> Sort by: </div>
+                <div id="sort-type"> Top </div>
+                <i class="fa-solid fa-caret-down"></i>
+            </div>
+
+            <!-- 1st LinkedIn Post starts here -->
+
+            <div class="property" id="post-1">
+
+                <!-- Username, Display Picture, Followers & Days posted ago -->
+
+                <div class="user">
+                    <div>
+                        <img src="logo/google.jpg" alt="google" title="google" id="google">
+                    </div>
+                    <div class="user-info">
+                        <div class="user-name"> Google </div>
+                        <div class="user-followers"> 28,472,796 followers </div>
+                        <div class="posted-ago">
+                            <span> 1w </span>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-earth-americas"></i>
+                        </div>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                </div>
+
+                <!-- Description about the post  -->
+
+                <div class="description">
+                    It wouldn&apos;t be <span class="hashtag"> #NationalPetDay </span> without a few Dooglers stopping by the office to say hi! <span class="hashtag"> #LifeAtGoogle </span>
+                </div>
+
+                <!-- pics used in the post -->
+
+                <div id="post-pics">
+                    <div>
+                        <img src="pics/doge-1.jpg" alt="doge-1" title="doge-1" id="doge-1">
+                    </div>
+                    <div>
+                        <img src="pics/doge-2.jpg" alt="doge-2" title="doge-2" id="doge-2">
+                        <img src="pics/doge-3.jpg" alt="doge-3" title="doge-3" id="doge-3">
+                        <img src="pics/doge-4.jpg" alt="doge-4" title="doge-4" id="doge-4">
+                    </div>
+                </div>
+
+                <!-- Reactions made by the Community -->
+
+                <div id="reactions">
+                    <img src="svg/like.svg" alt="like" title="like" id="like">
+                    <img src="svg/empathy.svg" alt="empathy" title="empathy" id="empathy">
+                    <img src="svg/praise.svg" alt="praise" title="praise" id="praise">
+                    <div class="reaction-number">
+                        <div class="reaction-number"> 26,474 </div>
+                        <div class="comments-reposts">
+                            <div class="comments"> 376 comments </div>
+                            <i class="fa-solid fa-circle"></i>
+                            <div class="reposts"> 527 reposts </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="divider-2"> <div></div> </div>
+
+                <!-- Like, Comment, Repost, Send Buttons -->
+
+                <div id="reaction-button">
+                    <div>
+                        <i class="fa-solid fa-thumbs-up"></i>
+                        <span> Like </span>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-comment"></i>
+                        <span> Comment </span>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-retweet"></i>
+                        <span> Repost </span>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-paper-plane"></i>
+                        <span> Send </span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2nd LinkedIn Post starts here  -->
+
+            <div class="property" id="post-2">
+
+                <!-- Username, Display Picture, Followers & Days posted ago -->
+
+                <div class="user">
+                    <div>
+                        <img src="logo/bisleri.jpg" alt="bisleri" title="bisleri" id="bisleri">
+                    </div>
+                    <div class="user-info">
+                        <div class="user-name"> Bisleri International Pvt Ltd </div>
+                        <div class="user-followers"> 188,695 followers </div>
+                        <div class="posted-ago">
+                            <span> 3w </span>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-earth-americas"></i>
+                        </div>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                </div>
+
+                <!-- Description about the post -->
+
+                <div class="description">
+                    <div>
+                        Sustainability has always been in our DNA. Today, we launch a campaign that we are passionate about - <span class="hashtag"> #BisleriGreenerPromise</span>. As a responsible corporate, the campaign highlights our commitment towards water security, plastic recycling and creating a circular economy.
+                    </div>
+                    <div>
+                        Our innovative practices, strategic partnerships, and dedicated teams have helped us to successfully offset our plastic footprint and replenish more water to the environment than we consume in our operations. It gives us immense pride in our achievement of becoming a plastic-neutral and water-positive enterprise.
+                    </div>
+                    <div>
+                        Sustainability is instilled in each of our employees. It is an ongoing journey, and we are committed to improving our practices by embracing innovations as part of the Bisleri Greener Promise to create a <span class="hashtag">#BetterWorld</span>.
+                    </div>
+                    <span class="hashtag">
+                        #BisleriGreenerPromise #PlasticNeutral #WaterPositive #Recycling #WaterConservation
+                    </span>
+                </div>
+
+                <!-- Video Used in the post -->
+
+                <div id="post-video">
+                    <video src="video/bisleri.mp4" controls>
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+
+                <!-- Reactions made by the community -->
+
+                <div id="reactions">
+                    <img src="svg/like.svg" alt="like" title="like" id="like">
+                    <img src="svg/empathy.svg" alt="empathy" title="empathy" id="empathy">
+                    <img src="svg/praise.svg" alt="praise" title="praise" id="praise">
+                    <div class="reaction-number">
+                        <div class="reaction-number"> 18,329 </div>
+                        <div class="comments-reposts">
+                            <div class="comments"> 420 comments </div>
+                            <i class="fa-solid fa-circle"></i>
+                            <div class="reposts"> 431 reposts </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="divider-2"> <div></div> </div>
+
+                <!-- Like, Comment, Repost, Send Buttons -->
+
+                <div id="reaction-button">
+                    <div>
+                        <i class="fa-solid fa-thumbs-up"></i>
+                        <span> Like </span>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-comment"></i>
+                        <span> Comment </span>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-retweet"></i>
+                        <span> Repost </span>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-paper-plane"></i>
+                        <span> Send </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right Panel starts here  -->
+
+        <div id="right-panel">
+
+            <!-- LinkedIn News Section -->
+
+            <div class="property" id="news-section">
+
+                <!-- LinkedIn News -->
+
+                <div id="news-heading">
+                    <span> LinkedIn News </span>
+                    <i class="fa-solid fa-circle-info"></i>
+                </div>
+
+                <!-- News 1 -->
+
+                <div id="news">
+                    <div id="news-1">
+                        <div class="news-info">
+                            <i class="fa-solid fa-circle"></i>
+                            <span> PhonePe raises $100M </span>
+                        </div>
+                        <div class="reader-info">
+                            <span> 1d ago </span>
+                            <i class="fa-solid fa-circle"></i>
+                            <span> 15,047 readers </span>
+                        </div>
+                    </div>
+
+                    <!-- News 2 -->
+
+                    <div id="news-2">
+                        <div class="news-info">
+                            <i class="fa-solid fa-circle"></i>
+                            <span> India Inc on the hunt for directors </span>
+                        </div>
+                        <div class="reader-info">
+                            <span> 1d ago </span>
+                            <i class="fa-solid fa-circle"></i>
+                            <span> 4,438 readers </span>
+                        </div>
+                    </div>
+
+                    <!-- News 3 -->
+
+                    <div id="news-3">
+                        <div class="news-info">
+                            <i class="fa-solid fa-circle"></i>
+                            <span> Fashion drives online spends </span>
+                        </div>
+                        <div class="reader-info">
+                            <span> 2d ago </span>
+                            <i class="fa-solid fa-circle"></i>
+                            <span> 8,421 readers </span>
+                        </div>
+                    </div>
+
+                    <!-- News 4 -->
+
+                    <div id="news-4">
+                        <div class="news-info">
+                            <i class="fa-solid fa-circle"></i>
+                            <span> This week in news letters </span>
+                        </div>
+                        <div class="reader-info">
+                            <span> 2d ago </span>
+                            <i class="fa-solid fa-circle"></i>
+                            <span> 4,799 readers </span>
+                        </div>
+                    </div>
+
+                    <!-- News 5 -->
+
+                    <div id="news-5">
+                        <div class="news-info">
+                            <i class="fa-solid fa-circle"></i>
+                            <span> Wings of recovery for aviation </span>
+                        </div>
+                        <div class="reader-info">
+                            <span> 3d ago </span>
+                            <i class="fa-solid fa-circle"></i>
+                            <span> 2,456 readers </span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- show more button -->
+
+                <div id="show-more">
+                    <span> Show more </span>
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+            </div>
+
+            <!-- Add to Your Feed Section -->
+
+            <div class="property" id="follow-more">
+                <div id="news-heading">
+                    <span> Add to your feed </span>
+                    <i class="fa-solid fa-circle-info"></i>
+                </div>
+
+                <!-- Apple -->
+
+                <div class="companies">
+                    <div>
+                        <img src="logo/apple.jpg" alt="Apple" title="Apple">
+                    </div>
+                    <div>
+                        <div class="company-name"> Apple </div>
+                        <div class="company-role">
+                            Computers and Electronics Manufacturing
+                        </div>
+                        <div class="company-followers"> 18M followers </div>
+                    </div>
+                </div>
+
+                <!-- Follow Button -->
+
+                <div class="follow-button-container">
+                    <button class="follow-button">
+                        <div>
+                            <i class="fa-solid fa-plus"></i>
+                            <span> Follow </span>
+                        </div>
+                    </button>
+                </div>
+
+                <div id="company-divider"> <div></div> </div>
+
+                <!-- Microsoft -->
+
+                <div class="companies">
+                    <div>
+                        <img src="logo/microsoft.jpg" alt="Microsoft" title="Microsoft">
+                    </div>
+                    <div>
+                        <div class="company-name"> Microsoft </div>
+                        <div class="company-role">
+                            Software Development
+                        </div>
+                        <div class="company-followers"> 20M followers </div>
+                    </div>
+                </div>
+
+                <!-- Follow Button -->
+
+                <div class="follow-button-container">
+                    <button class="follow-button">
+                        <div>
+                            <i class="fa-solid fa-plus"></i>
+                            <span> Follow </span>
+                        </div>
+                    </button>
+                </div>
+
+                <div id="company-divider"> <div></div> </div>
+
+                <!-- Meta -->
+
+                <div class="companies">
+                    <div>
+                        <img src="logo/meta.jpg" alt="Meta" title="Meta">
+                    </div>
+                    <div>
+                        <div class="company-name"> Meta </div>
+                        <div class="company-role">
+                            Software Development
+                        </div>
+                        <div class="company-followers"> 10M followers </div>
+                    </div>
+                </div>
+
+                <!-- Follow Button -->
+
+                <div class="follow-button-container">
+                    <button class="follow-button">
+                        <div>
+                            <i class="fa-solid fa-plus"></i>
+                            <span> Follow </span>
+                        </div>
+                    </button>
+                </div>
+
+                <div id="company-divider"> <div></div> </div>
+
+                <!-- Netflix -->
+
+                <div class="companies">
+                    <div>
+                        <img src="logo/netflix.jpg" alt="Netflix" title="Netflix">
+                    </div>
+                    <div>
+                        <div class="company-name"> Netflix </div>
+                        <div class="company-role">
+                            Entertainment Providers
+                        </div>
+                        <div class="company-followers"> 10M followers </div>
+                    </div>
+                </div>
+
+                <!-- Follow Button -->
+
+                <div class="follow-button-container">
+                    <button class="follow-button">
+                        <div>
+                            <i class="fa-solid fa-plus"></i>
+                            <span> Follow </span>
+                        </div>
+                    </button>
+                </div>
+
+                <div id="company-divider"> <div></div> </div>
+
+                <!-- Spotify -->
+
+                <div class="companies">
+                    <div>
+                        <img src="logo/spotify.jpg" alt="Spotify" title="Spotify">
+                    </div>
+                    <div>
+                        <div class="company-name"> Spotify </div>
+                        <div class="company-role">
+                            Musicians Stockholm, Stockholm County
+                        </div>
+                        <div class="company-followers"> 3M followers </div>
+                    </div>
+                </div>
+
+                <!-- Follow Button -->
+
+                <div class="follow-button-container">
+                    <button class="follow-button">
+                        <div>
+                            <i class="fa-solid fa-plus"></i>
+                            <span> Follow </span>
+                        </div>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

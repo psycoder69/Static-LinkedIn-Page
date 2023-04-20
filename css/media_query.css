@@ -1,0 +1,79 @@
+/* media queries for responsiveness */
+
+@media only screen and (max-width: 1200px) {
+    #content {
+        grid-template-columns: 16rem 25rem 18.75rem;
+    }
+
+    #text-area {
+        width: 19rem;
+    }
+
+    #attachments > div > i {
+        margin-right: 0.25rem;
+    }
+
+    #attachments > div > span {
+        margin-left: 0.25rem;
+    }
+
+    .reaction-number {
+        flex-basis: 200px;
+    }
+
+    .comments-reposts {
+        width: 16.25rem;
+    }
+
+    #reaction-button > div {
+        padding: 1rem 1rem;
+    }
+
+    #post-pics  div {
+        width: 18rem;
+    }
+
+    #post-video > video {
+        height: 16rem;
+        width: 18rem;
+    }
+}
+
+@media only screen and (max-width: 1020px) {
+    #logo {
+        margin-right: 2rem;
+    }
+
+    .nav-icon span, #search-bar, #myself > div > i, #business > div > i {
+        display: none;
+    }
+
+    #search-icon {
+        display: flex;
+    }
+
+    #content {
+        grid-template-columns: 16rem 30rem;
+        grid-template-areas:
+        "left-panel middle-panel"
+        ".......... right-panel";
+    }
+
+    #text-area {
+        width: 23rem;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    #divider, #business, #premium, #jobs, #notifications, #network, #messaging {
+        display: none;
+    }
+
+    #content {
+        grid-template-columns: 36rem;
+        grid-template-areas:
+        "left-panel"
+        "middle-panel"
+        "right-panel";
+    }
+}
